@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>les formulaires</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <form action="traitement.php" method="post"><br>
+      <!-- //ici nous allons créer notre formulaire -->
+      <label for="prez" >Entrer votre pseudo:</label>
+      <input type="text" name="pseudo" id="pseudo" placeholder="pseudo:" autofocus><br><br>
+
+      <label for="pase">Entrer votre password</label>
+      <input type="password" name="password" id="pass" value="0000" maxlenght="12"><br><br>
+
+      <label for="email">entrer votre email:</label>
+      <input type="email" name="email" id="email" autocomplete="on" autofocus placeholder="example@gmail.com"><br><br>
+
+      <label for="nombre">entrer un nombre:</label>
+      <input type="number" name="numéro" id="numéro" min="18" max="35"  value="30" placeholder="nombre" autofocus ><br><br>
+
+      <input type="submit">
+
+
+
+
+
+    </form>
+  </body>
+</html>
